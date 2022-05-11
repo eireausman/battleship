@@ -1,0 +1,59 @@
+.gameContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.playerContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.playerTitle {
+  text-align: center;
+}
+
+.computerContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.computerTitle {
+  text-align: center;
+}
+
+.boardGrid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+}
+
+.boardCell {
+  display: flex;
+  width: 33px;
+  height: 33px;
+  border: 1px solid black;
+  transition: 0.8s;
+}
+
+.computerBoardCell {
+  cursor: pointer;
+}
+.computerBoardCell:hover {
+  background-color: bisque;
+}
+
+.hasBoat {
+  background-color: blue;
+}
+
+.guessedNoHit {
+  background-color: green;
+}
+.directHit {
+  background-color: red;
+}
+
+.shipSunk {
+  background-color: rgb(18, 18, 18);
+}
